@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Full Spectrum Plumbing Services | Demo Website</title>
+<meta name="description" content="Full Spectrum Plumbing Services — family-owned plumbing serving Rock Hill, Fort Mill, Charlotte and surrounding communities.">
+<style>
+:root{--navy:#071b2d;--blue:#0679c8;--cyan:#18c4e8;--ice:#eef8fc;--text:#132333;--muted:#607080;--line:#d9e5ec;--white:#fff;--shadow:0 20px 60px rgba(7,27,45,.13)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);line-height:1.6}
+a{text-decoration:none}.wrap{width:min(1160px,92%);margin:auto}.top{background:var(--navy);color:white;font-size:13px}.top .wrap{display:flex;justify-content:space-between;padding:9px 0}
+nav{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--line)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;gap:11px;align-items:center;color:var(--navy);font-weight:950;font-size:18px}.brandmark{width:45px;height:45px;border-radius:13px;background:linear-gradient(145deg,var(--blue),var(--cyan));color:#fff;display:grid;place-items:center;font-size:25px;box-shadow:0 8px 20px #0679c833}.brand small{display:block;color:#71808d;font-size:9px;letter-spacing:1.5px}
+.menu{display:flex;gap:25px;font-size:14px;font-weight:800}.btn{display:inline-block;border-radius:11px;padding:13px 19px;font-weight:900}.blue{background:var(--blue);color:#fff}.dark{background:var(--navy);color:#fff}.outline{border:1px solid #ffffff55;color:#fff}
+.hero{background:radial-gradient(circle at 85% 25%,#18c4e855,transparent 35%),linear-gradient(120deg,#06192a,#0a3a5c 65%,#0679c8);color:#fff}.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:55px;align-items:center;padding:88px 0}
+.eyebrow{color:#81e8ff;text-transform:uppercase;font-size:12px;font-weight:950;letter-spacing:2px}.hero h1{font-size:clamp(42px,6vw,72px);line-height:1;letter-spacing:-3px;margin:12px 0 22px}.hero p{font-size:18px;color:#dbeaf3;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.visual{min-height:470px;border-radius:28px;background:linear-gradient(135deg,#ffffff18,#ffffff08);border:1px solid #ffffff2a;display:flex;align-items:flex-end;padding:22px;overflow:hidden;box-shadow:var(--shadow)}
+.visual .photo-note{background:#06192dcc;border:1px solid #ffffff25;padding:17px 19px;border-radius:16px;width:100%}.photo-note strong{font-size:18px}.photo-note span{display:block;color:#bdd1dd;font-size:13px}
+section{padding:82px 0}.head{text-align:center;max-width:760px;margin:0 auto 42px}.head h2{font-size:42px;line-height:1.1;letter-spacing:-1.5px;margin:7px 0 12px}.head p{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{padding:25px;border:1px solid var(--line);border-radius:19px;background:#fff}.card:hover{box-shadow:var(--shadow);transform:translateY(-2px)}.card{transition:.2s}.ico{font-size:27px}.card h3{margin:10px 0 6px}.card p{margin:0;color:var(--muted);font-size:14px}
+.light{background:var(--ice)}.split{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.big{font-size:44px;line-height:1.08;letter-spacing:-1.5px}.ticks{display:grid;gap:12px;margin:25px 0}.tick{display:flex;gap:11px}.tick b{color:var(--blue)}
+.offer{border-radius:25px;background:var(--navy);color:white;padding:34px}.offer .tag{color:#82e9ff;font-weight:900;text-transform:uppercase;font-size:12px;letter-spacing:1.5px}.offer h3{font-size:30px;margin:8px 0}.offer p{color:#c9dce7}
+.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.review{border:1px solid var(--line);padding:23px;border-radius:18px}.stars{letter-spacing:2px}.review p{color:var(--muted)}
+.areas{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}.pill{border:1px solid var(--line);padding:9px 14px;border-radius:999px;font-weight:800;background:#fff}
+.contact{background:linear-gradient(#fff,#edf8fc)}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:35px}.form{background:#fff;padding:28px;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow)}label{font-size:13px;font-weight:900;display:block;margin-bottom:5px}input,select,textarea{width:100%;padding:13px;border:1px solid #ccd9e1;border-radius:10px;margin-bottom:14px;font:inherit}textarea{min-height:115px}
+footer{background:#051523;color:#c9dbe5;padding:45px 0}.foot{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}.foot strong{color:#fff}.mobile{display:none}
+@media(max-width:850px){.menu{display:none}.hero .wrap,.split,.contact-grid{grid-template-columns:1fr}.grid,.reviews{grid-template-columns:1fr 1fr}.hero .wrap{padding:60px 0}}
+@media(max-width:560px){.grid,.reviews{grid-template-columns:1fr}.top .wrap{display:block;text-align:center}.top .wrap span{display:block}.mobile{display:flex;position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid var(--line);padding:8px;gap:8px;z-index:50}.mobile a{flex:1;text-align:center;padding:10px;border-radius:9px;font-weight:900}body{padding-bottom:62px}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap"><span>Family-owned plumbing • Rock Hill • Fort Mill • Charlotte</span><span><strong>(803) 366-1200</strong></span></div></div>
+<nav><div class="wrap nav">
+<a class="brand" href="#"><div class="brandmark">💧</div><div>FULL SPECTRUM <span>PLUMBING SERVICES</span><small>RESIDENTIAL • COMMERCIAL • LOCAL</small></div></a>
+<div class="menu"><a href="#services">Services</a><a href="#about">About</a><a href="#reviews">Reviews</a><a href="#areas">Areas</a><a href="#contact">Contact</a></div>
+<a class="btn blue" href="https://fullspectrumplumbingllc.com/" target="_blank">Book Online</a>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+<div><div class="eyebrow">Trusted plumbing pros</div><h1>Plumbing service with a higher standard.</h1>
+<p>Residential and commercial plumbing for Rock Hill, Fort Mill, Charlotte and surrounding communities. Clear options, upfront pricing and a customer-first experience.</p>
+<div class="actions"><a class="btn blue" href="tel:8033661200">Call (803) 366-1200</a><a class="btn outline" href="#contact">Request Service</a></div>
+</div>
+<div class="visual"><div class="photo-note"><strong>Real brand media ready</strong><span>This demo uses verified Full Spectrum information. Replace this panel with the company's approved logo/hero photo before publishing.</span></div></div>
+</div></header>
+
+<section id="services"><div class="wrap"><div class="head"><div class="eyebrow" style="color:var(--blue)">The full spectrum</div><h2>One plumbing team for the whole home.</h2><p>Core services are based on the services currently advertised by Full Spectrum Plumbing Services.</p></div>
+<div class="grid">
+<div class="card"><div class="ico">🚨</div><h3>Emergency Plumbing</h3><p>Fast-response help for leaks, bursts, backups and urgent plumbing problems.</p></div>
+<div class="card"><div class="ico">🔥</div><h3>Water Heaters</h3><p>Water heater and tankless water heater repair, replacement and installation.</p></div>
+<div class="card"><div class="ico">🌀</div><h3>Drain & Sewer</h3><p>Drain cleaning, sewer camera inspections, repair and replacement solutions.</p></div>
+<div class="card"><div class="ico">💧</div><h3>Leak Detection</h3><p>Professional detection for hidden, underground and slab-related plumbing leaks.</p></div>
+<div class="card"><div class="ico">🔧</div><h3>Repiping</h3><p>Whole-home and partial repiping designed around your home's plumbing system.</p></div>
+<div class="card"><div class="ico">🔥</div><h3>Gas Lines</h3><p>Gas line installation, repair, extensions and safety-related plumbing service.</p></div>
+<div class="card"><div class="ico">✨</div><h3>Water Filtration</h3><p>Whole-home filtration and water softening solutions for improved water quality.</p></div>
+<div class="card"><div class="ico">🚽</div><h3>Kitchen & Bathroom</h3><p>Fixtures, faucets, toilets, disposals and everyday plumbing repairs.</p></div>
+<div class="card"><div class="ico">🏢</div><h3>Commercial Plumbing</h3><p>Residential and commercial plumbing services across the Charlotte metro area.</p></div>
+</div></div></section>
+
+<section id="about" class="light"><div class="wrap split"><div><div class="eyebrow" style="color:var(--blue)">Built by family</div><h2 class="big">Local ownership. Long-term reputation.</h2><p style="color:var(--muted)">Full Spectrum Plumbing Services is owned and operated by Thomas and Jackie Munn, a father-and-son team. The company says it has more than 20 years of experience and emphasizes safety, longevity, transparency and efficiency.</p>
+<div class="ticks"><div class="tick"><b>✓</b><span>Family-owned and operated</span></div><div class="tick"><b>✓</b><span>Upfront pricing and clear options</span></div><div class="tick"><b>✓</b><span>Licensed, experienced professionals</span></div><div class="tick"><b>✓</b><span>Same-day service available</span></div></div>
+<a class="btn dark" href="https://fullspectrumplumbingllc.com/about/meet-the-owners/" target="_blank">Meet the Owners</a></div>
+<div class="offer"><div class="tag">Current website offer</div><h3>SAME-DAY HOT WATER</h3><p>If Full Spectrum can't restore your hot water the same day, its current offer says you can receive $500 toward replacement. Terms and expiration apply.</p><a class="btn blue" href="https://fullspectrumplumbingllc.com/" target="_blank">View Current Offers</a></div></div></section>
+
+<section id="reviews"><div class="wrap"><div class="head"><div class="eyebrow" style="color:var(--blue)">Customer experience</div><h2>4.9-star reputation.</h2><p>Full Spectrum's official site currently displays a 4.9 Google rating and hundreds of customer reviews.</p></div>
+<div class="reviews">
+<div class="review"><div class="stars">★★★★★</div><p>“Full Spectrum Plumbing Services did an excellent job with my toilet repair. The technician arrived on time, quickly diagnosed the issue, and fixed it efficiently.”</p><strong>— Logan Max</strong></div>
+<div class="review"><div class="stars">★★★★★</div><p>“Brandon was excellent. He did a thorough job diagnosing my issues and made the necessary repairs quickly.”</p><strong>— Robert</strong></div>
+<div class="review"><div class="stars">★★★★★</div><p>“Justin is very professional and took care of the problem my drain was having.”</p><strong>— Douglas Cathcart</strong></div>
+</div></div></section>
+
+<section class="light"><div class="wrap"><div class="head"><div class="eyebrow" style="color:var(--blue)">Local service</div><h2>Serving communities across the Carolinas.</h2></div><div class="areas">
+<span class="pill">Rock Hill</span><span class="pill">Fort Mill</span><span class="pill">Charlotte</span><span class="pill">Indian Land</span><span class="pill">Lake Wylie</span><span class="pill">Clover</span><span class="pill">Lancaster</span><span class="pill">York</span><span class="pill">Tega Cay</span><span class="pill">Ballantyne</span><span class="pill">Pineville</span><span class="pill">Waxhaw</span><span class="pill">Marvin</span><span class="pill">Matthews</span><span class="pill">Mint Hill</span><span class="pill">Steele Creek</span></div></div></section>
+
+<section id="contact" class="contact"><div class="wrap contact-grid"><div><div class="eyebrow" style="color:var(--blue)">Get started</div><h2 class="big">Need plumbing help?</h2><p style="color:var(--muted)">Call the team or use the service request form. For booking, the official site has an online scheduling option.</p><p><strong>Phone</strong><br><a style="font-size:25px;color:var(--blue);font-weight:950" href="tel:8033661200">(803) 366-1200</a></p><p><strong>Fort Mill</strong><br>150 B W Thomas Dr, Ste #125<br>Fort Mill, SC 29708</p><p><strong>Rock Hill</strong><br>1146 E White St, Suite A<br>Rock Hill, SC 29730</p></div>
+<form class="form" action="https://formsubmit.co/" method="POST" onsubmit="event.preventDefault();alert('Demo form: connect this to the business email/CRM before launch.');"><h3 style="margin-top:0;font-size:25px">Request Service</h3><label>Name</label><input required placeholder="Your name"><label>Phone</label><input required type="tel" placeholder="(803) 555-0000"><label>Email</label><input type="email" placeholder="you@example.com"><label>Service</label><select><option>Choose a service</option><option>Emergency plumbing</option><option>Water heater</option><option>Drain / sewer</option><option>Leak detection</option><option>Repiping</option><option>Gas lines</option><option>Water filtration</option><option>Other</option></select><label>How can we help?</label><textarea placeholder="Briefly describe the problem..."></textarea><button class="btn blue" style="width:100%;border:0;cursor:pointer">Send Request</button><div style="font-size:11px;color:#70808d;margin-top:10px">Demo form — connect to the company's approved email/CRM before launch.</div></form>
+</div></section>
+
+<footer><div class="wrap foot"><div><strong>Full Spectrum Plumbing Services</strong><div>Family-owned • Rock Hill • Fort Mill • Charlotte</div></div><div><strong>(803) 366-1200</strong><div>150 B W Thomas Dr, Ste #125, Fort Mill, SC 29708</div></div><div><a href="https://fullspectrumplumbingllc.com/" target="_blank" style="color:#82e9ff">Official Website ↗</a></div></div></footer>
+<div class="mobile"><a href="tel:8033661200" class="blue">Call Now</a><a href="https://fullspectrumplumbingllc.com/" target="_blank" class="dark">Book Online</a></div>
+</body></html>
